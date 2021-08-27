@@ -1,10 +1,11 @@
 import React, { Component, setState } from 'react'
 import { Text, StyleSheet, FlatList, View, Image } from 'react-native'
 import mockMovies from '../mockMovies';
-import { connect } from 'react-redux';
+import { Provider } from 'react-redux';
+
 import MovieRow from '../components/MovieRow';
 
-class Home extends Component {
+export default class Home extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -13,17 +14,13 @@ class Home extends Component {
     }
   }
   async componentDidMount() {
-
-    const { addMovies } = this.props
     const response = await fetch('https://www.omdbapi.com/?apikey=89eefbd9&s=batman')
     const data = await response.json()
-    // this.setState({ movies: data.Search })
-    addMovies(data.Search)
+    this.setState({ movies: data.Search })
   }
 
   render() {
-    // const { movies } = this.state
-    const { movies } = this.props
+    const { movies } = this.state
     return (
       <View>
         {/* <View>
@@ -39,7 +36,7 @@ class Home extends Component {
         </View> */}
 
 
-
+      
         <FlatList
           data={movies}
           renderItem={({ item: movie }) =>
@@ -74,23 +71,3 @@ class Home extends Component {
 </View> */}
 
 const styles = StyleSheet.create({})
-
-function mapStateToProps(state) {
-  return {
-    movies: state
-  }
-}
-
-function mapDispatchToProps(dispatch) {
-  return {
-    addMovies: (movies) => dispatch({
-      type: 'Add_Movies',
-      payload: { movies }
-    })
-  }
-}
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(Home)
