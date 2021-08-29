@@ -5,7 +5,7 @@ A clone of the YouTube app that I created using React Native, took reference fro
 
 Home               |  Explore               | Notifications               
 :-------------------------:|:-------------------------:|:-------------------------:
-![](/snapshots/snapshot2.jpeg)|![](/snapshots/snapshot1.jpeg)|![](/snapshots/snapshot3.jpeg)|
+![](/snapshots/Home1.jpg)|![](/snapshots/Home2.jpg)|![](/snapshots/snapshot3.jpeg)|
 
 Library         |  User Profile Page
 :-------------------------:|:-------------------------:
