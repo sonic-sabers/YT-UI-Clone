@@ -1,5 +1,5 @@
 ## About
-A clone of the YouTube app that I created using Flutter, took reference from [this](https://github.com/KalleHallden/YouTubeClone/tree/master/youtubeclone) version of YouTube clone.
+A clone of the YouTube app that I created using React Native, took reference from [this](https://github.com/Ashish2468/YT-UI-Clone) version of YouTube clone.
 
 ## Snapshots
 
@@ -15,21 +15,21 @@ Library         |  User Profile Page
 1. Cloning the repository:
 
 ```
-$ git clone https://github.com/ahmedgulabkhan/youtube_clone_flutter.git
+$ git clone https://github.com/Ashish2468/YT-UI-Clone.git
 ```
 
 2. Open the project:
 
-`$ cd youtube_clone_flutter`
+`$ cd T-UI-Clone`
 
 3. Now run the app on your connected device (using terminal):
 
-`$ flutter run`
-
+`$ npm install` then
+`$ npx react-native run-android`
 ## LICENSE
 MIT License
 
-Copyright (c) 2020 Ahmed Gulab Khan
+Copyright (c) 2020 Ashish Gupta
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
