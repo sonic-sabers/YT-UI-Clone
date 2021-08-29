@@ -3,7 +3,7 @@ A clone of the YouTube app that I created using React Native, took reference fro
 
 ## Snapshots
 
-Home               |  Explore               | .               
+Home               |  Scroll               | .               
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](/snapshots/Home1.jpg)|![](/snapshots/Home2.jpg)|
 ![](/snapshots/snapshot3.jpeg)|
