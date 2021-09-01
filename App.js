@@ -2,7 +2,7 @@
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import * as React from 'react';
-// import { Text, View ,BlurView} from 'react-native';
+
 import { StyleSheet, Text, View, Image, ImageView, TouchableOpacity, TouchableHighlight } from 'react-native'
 
 import { NavigationContainer } from '@react-navigation/native';
