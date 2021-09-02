@@ -98,8 +98,7 @@ function MyTabs() {
           tabBarIcon: ({ color, size }) => (
             // <MaterialCommunityIcons name="account" color={color} size={size} />
 
-            // <TouchableOpacity style={styles.icon} >
-            // </TouchableOpacity>
+
             <View style={styles.icon} >
               <Image style={styles.add}
                 source={require('./Assets/addyt.png')} />
