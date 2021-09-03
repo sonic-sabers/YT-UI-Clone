@@ -28,7 +28,7 @@ $ git clone https://github.com/Ashish2468/YT-UI-Clone.git
 `$ npm install` then
 `$ npx react-native run-android`
 ## LICENSE
-MIT License
+Official License
 
 Copyright (c) 2020 Ashish Gupta
 
