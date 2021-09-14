@@ -42,8 +42,7 @@ function MyTabs() {
     <Tab.Navigator
 
       tabBarOptions={{
-        //  activeTintColor: '#212121',
-        //  inactiveTintColor: 'lightgray',
+
         activeBackgroundColor: '#212121',
 
         inactiveBackgroundColor: '#212121',
@@ -57,12 +56,7 @@ function MyTabs() {
       }}
 
       initialRouteName="Feed"
-    // screenOptions={{
-    //   tabBarActiveTintColor: '#fff',
-    //   // tabBarBackground: () => (
-    //     // <BlurView tint="light" intensity={100}  />
-    //   // ),
-    // }}
+
 
     >
       <Tab.Screen
