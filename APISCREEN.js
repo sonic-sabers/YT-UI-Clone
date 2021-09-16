@@ -68,7 +68,6 @@
 //     }
 // }
 
-// const styles = StyleSheet.create({})
 
 
 // import React, { Component } from 'react'
